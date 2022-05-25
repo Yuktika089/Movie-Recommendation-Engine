@@ -34,7 +34,7 @@ if __name__ == '__main__':
     movies = [title[0] for title in movie_titles]
     st.header('Which Movie To Watch Today?')
     #loading image from system
-    img = Image.open('C:\Users\YUKTIKA DUGGAL\New folder\Engage_RecommendationEngine\bg_re.jfif') 
+    img = Image.open('bg_re.jfif') 
     apps = ['--Select--', 'Movie based', 'Genres based']   
     app_options = st.selectbox('Select application:', apps)
     
