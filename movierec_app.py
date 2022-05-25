@@ -43,6 +43,7 @@ if __name__ == '__main__':
     
     apps = ['--Select--', 'Movie based', 'Genres based']   
     app_options = st.selectbox('Select application:', apps)
+    st.write("Select on which basis you'd like movie recommendations.")
     
     if app_options == 'Movie based':
         movie_select = st.selectbox('Select movie:', ['--Select--'] + movies)
@@ -57,9 +58,11 @@ if __name__ == '__main__':
                 # Displays movie title with link to imdb
                 st.markdown(f"[{movie}]({link})")
     elif app_options == apps[2]:
+        st.write("Select your favourite genres")
         options = st.multiselect('Select genres:', genres)
         if options:
             imdb_score = st.slider('IMDb score:', 1, 10, 8)
+            st.write("You can customize IMDB score")
             n = st.number_input('Number of movie recommendations:', min_value=5, max_value=20, step=1)
             test_point = [1 if genre in options else 0 for genre in genres]
             test_point.append(imdb_score)
