@@ -73,7 +73,7 @@ if __name__ == '__main__':
         st.write('Select option')
   
 #loading audio from system
+    st.write("Play this button to accompany your vibe while you look for your movie!!")
     audio1 = open("song.mp3", "rb")
     st.audio(audio1)
-    st.write("Play this button to accompany your vibe while you look for your movie!!")
 
