@@ -38,6 +38,9 @@ if __name__ == '__main__':
     img = Image.open('blue_bg3.png') 
     st.image(img)
     
+    st.write("This is a simple Movie Recommender application. \nIt consists of redirecting IMDB links to particular movies in order to give the viewers a review of selected movies."
+                        "\nYou can select the genres and change the IMDb score. \nClick on the Movie and you'll be redirected to its IMDB page and watch its trailer.\n\n")
+    
     apps = ['--Select--', 'Movie based', 'Genres based']   
     app_options = st.selectbox('Select application:', apps)
     
