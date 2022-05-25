@@ -38,8 +38,8 @@ if __name__ == '__main__':
     #img = Image.open('blue_bg3.png') 
     #st.image(img)
     #loading audio from system
-    #audio1 = open("song.mp3", "rb")
-    #st.audio(audio1)
+    audio1 = open("song.mp3", "rb")
+    st.audio(audio1)
     apps = ['--Select--', 'Movie based', 'Genres based']   
     app_options = st.selectbox('Select application:', apps)
     
