@@ -35,10 +35,10 @@ if __name__ == '__main__':
     st.header('Which Movie To Watch Today?')
     st.subheader('One solution for all movie cravings!')
     #loading image from system
-    img = Image.open('blue_bg3.png') 
+    #img = Image.open('blue_bg3.png') 
     #st.image(img)
     #loading audio from system
-    audio1 = open("song.mp3", "rb")
+    #audio1 = open("song.mp3", "rb")
     #st.audio(audio1)
     apps = ['--Select--', 'Movie based', 'Genres based']   
     app_options = st.selectbox('Select application:', apps)
