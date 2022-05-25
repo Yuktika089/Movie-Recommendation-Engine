@@ -66,8 +66,8 @@ if __name__ == '__main__':
                 st.markdown(f"[{movie}]({link})")
 
         else:
-                st.write("This is a simple Movie Recommender application. It consists of redirecting IMDB links to particular movies in order to give the viewers a review of selected movies."
-                        "You can select the genres and change the IMDb score.")
+                st.write("This is a simple Movie Recommender application. \nIt consists of redirecting IMDB links to particular movies in order to give the viewers a review of selected movies."
+                        "\nYou can select the genres and change the IMDb score. \nClick on the Movie and you'll be redirected to its IMDB page and watch its trailer.")
 
     else:
         st.write('Select option')
