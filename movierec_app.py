@@ -34,8 +34,8 @@ if __name__ == '__main__':
     movies = [title[0] for title in movie_titles]
     name = st.text_input("Enter Your name", "Type Here ...")
     if(st.button('Submit')):
-    result = name.title()
-    st.success(result)
+       result = name.title()
+       st.success(result)
     
     st.title("Recliner Lounge")
     st.header('Which Movie To Watch Today?')
