@@ -36,15 +36,15 @@ if __name__ == '__main__':
     
     st.markdown("<h2 style='text-align: center;'>Which Movie to Watch Today?</h2>", unsafe_allow_html=True)
     #st.header('Which Movie To Watch Today?')
-    st.subheader('One solution for all movie cravings!')
+    st.markdown("<h3 style='text-align: center;'>One solution for all movie cravings!</h3>", unsafe_allow_html=True)
+    #st.subheader('One solution for all movie cravings!')
     #loading image from system
     img = Image.open('yo.png') 
     st.image(img, use_column_width=True)
     
-    name = st.text_input("Enter Your name", "Type Here ...")
+    name = st.text_input("Enter Your Name", "Type Here")
     if(st.button('Submit')):
        result = name.title()
-       st.success(result)
     
     st.write("This is a simple Movie Recommendation Application. \nIt consists of redirecting IMDB links to particular movies in order to give the viewers a review of selected movies."
                         "\nYou can select the genres and change the IMDb score. \nClick on the Movie and you'll be redirected to its IMDB page and watch its trailer.\n\n")
