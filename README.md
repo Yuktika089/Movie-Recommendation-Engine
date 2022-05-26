@@ -135,21 +135,41 @@ To run this project on your local systems, following are the requirements:
 
 <img src="Images/pg7.png" alt="Recommendations for Movie-based" width="700"/>
 
-    - The recommendations provided also enables you to check it's overview and it's trailer by clicking on the Movie you choose from the recommendations and you will be directed to its IMDB page. Here, I clicked on 
+    - The recommendations provided also enables you to check it's overview and it's trailer by clicking on the Movie you choose from the recommendations and you will be directed to its IMDB page. Here, I clicked on Wreck-it Ralph : 
+
+<img src="Images/imdb_mb.png" alt="IMDB page of the Recommended Movie" width="700"/>
+
+#### - Genre Based
+
+      - If Genre-based application is selected, then the user needs to select either one or more genres from the options provided.
+
+<img src="Images/pg9.png" alt="Selecting Genres" width="700"/>
+      
+      - Then you may adjust the IMDB score according to your requirement for the recommendations. Here as well, you may increase or decrease the number of recommendations you require.
+
+<img src="Images/pg10.png" alt="Adjusting IMDB Score" width="700"/>
+
+      - If you click on any recommended movie, you will be directed to its IMDB page. Here, I've clicked on Sleeper :
+
+<img src="Images/imdb_gb.png" alt="IMDB page of the Recommended Movie" width="700"/>
+    
+#### - Additional Feature
+     
+      - In order to accompany your searching time, music is provided. Optional to vibe.
+
+<img src="Images/pg11.png" alt="Play the Audio" width="700"/>
     
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Resources Used
 
-* [React video call app tutorial](https://youtu.be/oxFr7we3LC8)
-* [How does webRTC work? Make a video call app using webRTC](https://youtu.be/rr_Zd16dql0)
-* [Firebase chat app - React JS, Firebase, Chat Engine](https://youtu.be/Bv9Js3QLOLY)
+* [Movie Recommendation System](https://youtu.be/7rEagFH9tQg)
+* [2nd - Movie Recommendation System](https://youtu.be/_cXm7o9cDRo)
+* [Streamlit Deployment](https://youtu.be/sO4IKex53JY)
 
-<!--MARKDOWN LINKS-->
-[front-end-shield]: https://img.shields.io/badge/Front--end-React%20JS%2C%20Material--UI-blueviolet
-[back-end-shield]: https://img.shields.io/badge/Back--end-Node%20JS%2C%20Express%2C%20socket.io-blueviolet
-[tools-shield]: https://img.shields.io/badge/Tools-Peer%20JS%2C%20webRTC-blueviolet
-[front-end-shield-1]: https://img.shields.io/badge/Front--end-React%20JS%2C%20Ant--Design-blueviolet
-[back-end-shield-1]: https://img.shields.io/badge/Back--end-Chat%20Engine-blueviolet
-[tools-shield-1]: https://img.shields.io/badge/Tools-Firebase%2C%20Axios-blueviolet
+## Resoyrces Used within the Web App 
+
+* [1st Image in Web App](https://t3.ftcdn.net/jpg/02/85/99/48/240_F_285994803_e2kQy174bXyBFzEe4edXuw9txCoK9Xde.jpg)
+* [2nd Image in Web App](https://t3.ftcdn.net/jpg/03/08/67/90/240_F_308679018_BXO8N8kgr1RhPmwDJhLUnKL40i8MSFkU.jpg)
+* [Audio used](https://youtu.be/UhIte8t6BEg)
