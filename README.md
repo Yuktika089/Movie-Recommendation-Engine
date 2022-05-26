@@ -1,8 +1,7 @@
 <h1 align="center">Movie Recommendation Engine 
   <!--<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png" alt="Logo" width="25" height="25">-->
 </h1>
-<h3 align="centre">Recliner Lounger
-</h3>
+   <h2 align="center">Recliner Lounge</h2>
 
 <p align="center">
  <a target="_blank" href="https://share.streamlit.io/yuktika089/practise2/main/movierec_app.py">Link to the App</a>
