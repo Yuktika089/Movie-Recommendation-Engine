@@ -111,30 +111,32 @@ To run this project on your local systems, following are the requirements:
 
 - After the link is accesssed and the web app opens, you will come across this view.
 
-<img src="pg1.png" alt="First look of the Web App" width="700"/>
+<img src="Images/pg1.png" alt="First look of the Web App" width="700"/>
 
 - The very first step is required to fill your name in the space provided.
 
-<img src="pg2.png" alt="Enter your Name" width="700"/>
-<img src="pg3.png" alt="Click on Submit" width="700"/>
+<img src="Images/pg2.png" alt="Enter your Name" width="700"/>
+<img src="Images/pg3.png" alt="Click on Submit" width="700"/>
 
-- All the users registered with the app can be added to your chat. Photo sharing, read receipts, formatting the text, and many other things are possible in the chat. The shared photos can be viewed in the right pane. The chat can be deleted by expanding the 'Options' menu in the right pane and clicking the 'Delete' option.
+- User can select the mode of recommendation as Movie-based or Genre-based by clicking on the down arrow for 'Select Application'.
 
-<img src="Images/New-Chat.png" alt="new chat" width="700"/>
+<img src="Images/pg4.png" alt="Selecting Application" width="700"/>
 
-### Video Call
+#### - Movie Based
+    - If Movie-based application is selcted, then user needs to enter a movie similar to which the user will get the recommendations.
 
-The video call welcome screen shows your video and has a form to enter your name. To place a call, click on 'Copy your ID' and send the random generated unique ID to the person you want to call. 
+<img src="Images/pg5.png" alt="Movie-based - Entering a Movie" width="700"/>
 
-<img src="Images/Video-Call-Welcome-Screen.png" alt="video call welcome screen" width="700"/>
+    - There are tons of options of movies of the user to choose from by clicking on the down arrow.
 
-The person who received the ID needs to copy that in the 'ID to call' input field and click on 'Call' button. You can accept the person's incoming call by clicking on 'Answer' button.
+<img src="Images/pg6.png" alt="Movie Options" width="700"/>
 
-<img src="Images/Placing-Call.png" alt="placing call" width="700"/>
+    - Then, for the selected movie, recommendations will be provided. The default number of recommendations is set at 5, but you may increase or decrease the number of recommendations as per your requirement.
 
-Once the call is accepted, the users are connected and can video call seamlessly with the option to mute audio and video when required. The call can be stopped by clicking on 'Hang Up' button. The video call screen closes and we are navigated back to the chat window.
+<img src="Images/pg7.png" alt="Recommendations for Movie-based" width="700"/>
 
-<img src="Images/Video-Call-2-people.png" alt="video call between 2 people" width="700"/>
+    - The recommendations provided also enables you to check it's overview and it's trailer by clicking on the Movie you choose from the recommendations and you will be directed to its IMDB page. Here, I clicked on 
+    
 
 <!-- ACKNOWLEDGEMENTS -->
 
