@@ -24,23 +24,24 @@
     <li>
       <a href="#agile-methodology">Agile Methodology</a>
       <ul>
-        <li><a href="#what-is-agile">What is Agile</a></li>
+        <li><a href="#agile">Agile</a></li>
         <li><a href="#how-i-incorporated-agile-methodology-during-the-development-cycle">How I Incorporated Agile Methodology During The Development Cycle</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites and accessing the web applications">Prerequisites and Accessing the Web Application</a></li>
       </ul>
     </li>
     <li><a href="#navigating-through-the-app">Navigating through the App</a></li><ul>
-        <li><a href="#login">Login</a></li>
-        <li><a href="#chat-window">Chat Window</a></li>
-        <li><a href="#video-call">Video Call</a></li>
+        <li><a href="#how the web app works">How the Web App works?</a></li>
+        <li><a href="#movie-based">Movie Based</a></li>
+        <li><a href="#genre-based">Genre Based</a></li>
+        <li><a href="#additional feature">Additional Feature</a></li>
       </ul>
     <li><a href="#resources-used">Resources Used</a></li>
+    <li><a href="#resources used within the web app">Resources used within the Web App</a></li>
   </ol>
 </details>
 
@@ -54,6 +55,7 @@
 ### Salient Features
 * User registers through entering name.
 * User can make choice of which type of recommendation they want - Movie based or Genres based.
+* Since the IMDB score adjustment is provided for the recommendations, therefore inhabits the popularity-based filtering as well.
 * Recommendations are redirecting the user to its IMDB page, in order to give better user experience.
 * The user can adjust the number of recommendations and the IMDB scores, to get optimum suggestions.
 
@@ -102,7 +104,7 @@ Scrum and kanban are the primary agile processes. SCRUM is a subset of Agile, a 
 ## Getting Started
 To run this project on your local systems, following are the requirements:
 
-### Prerequisites and Accessing the Application
+### Prerequisites and Accessing the Web Application
 - There are no prerequisites to run the "Recliner Lounge" - Movie Recommendation Engine on your systems.
 - Just simply click on the link and the engine can be used to your satisfiability. 
 
@@ -170,7 +172,7 @@ To run this project on your local systems, following are the requirements:
 * [2nd - Movie Recommendation System](https://youtu.be/_cXm7o9cDRo)
 * [Streamlit Deployment](https://youtu.be/sO4IKex53JY)
 
-## Resoyrces Used within the Web App 
+## Resources Used within the Web App 
 
 * [1st Image in Web App](https://t3.ftcdn.net/jpg/02/85/99/48/240_F_285994803_e2kQy174bXyBFzEe4edXuw9txCoK9Xde.jpg)
 * [2nd Image in Web App](https://t3.ftcdn.net/jpg/03/08/67/90/240_F_308679018_BXO8N8kgr1RhPmwDJhLUnKL40i8MSFkU.jpg)
