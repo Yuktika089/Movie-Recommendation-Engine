@@ -32,11 +32,10 @@ if __name__ == '__main__':
               'Reality-TV', 'Romance', 'Sci-Fi', 'Short', 'Sport', 'Thriller', 'War', 'Western']
 
     movies = [title[0] for title in movie_titles]
-    st.title("Recliner Lounge")
-    st.markdown("<h1 style='text-align: center;'>Big headline</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>RECLINER LOUNGE</h1>", unsafe_allow_html=True)
     
-    
-    st.header('Which Movie To Watch Today?')
+    st.markdown("<h2 style='text-align: center;'>Which Movie to Watch Today?</h2>", unsafe_allow_html=True)
+    #st.header('Which Movie To Watch Today?')
     st.subheader('One solution for all movie cravings!')
     #loading image from system
     img = Image.open('yo.png') 
