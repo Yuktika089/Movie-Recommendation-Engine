@@ -33,14 +33,6 @@ if __name__ == '__main__':
 
     movies = [title[0] for title in movie_titles]
     st.title("Recliner Lounge")
-    title_alignment=
-      """
-      <style>
-      #the-title {
-         text-align: center
-      }
-      </style>
-      """
     st.markdown(title_alignment, unsafe_allow_html=True)
     
     name = st.text_input("Enter Your name", "Type Here ...")
