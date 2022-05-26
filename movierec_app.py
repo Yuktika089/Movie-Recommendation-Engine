@@ -33,18 +33,19 @@ if __name__ == '__main__':
 
     movies = [title[0] for title in movie_titles]
     st.title("Recliner Lounge")
-    st.markdown(title_alignment, unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Big headline</h1>", unsafe_allow_html=True)
     
-    name = st.text_input("Enter Your name", "Type Here ...")
-    if(st.button('Submit')):
-       result = name.title()
-       st.success(result)
     
     st.header('Which Movie To Watch Today?')
     st.subheader('One solution for all movie cravings!')
     #loading image from system
     img = Image.open('yo.png') 
     st.image(img, use_column_width=True)
+    
+    name = st.text_input("Enter Your name", "Type Here ...")
+    if(st.button('Submit')):
+       result = name.title()
+       st.success(result)
     
     st.write("This is a simple Movie Recommendation Application. \nIt consists of redirecting IMDB links to particular movies in order to give the viewers a review of selected movies."
                         "\nYou can select the genres and change the IMDb score. \nClick on the Movie and you'll be redirected to its IMDB page and watch its trailer.\n\n")
