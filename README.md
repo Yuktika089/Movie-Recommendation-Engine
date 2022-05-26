@@ -40,6 +40,7 @@
         <li><a href="#genre-based">Genre Based</a></li>
         <li><a href="#additional feature">Additional Feature</a></li>
       </ul>
+    <li><a href="#comparison and analysis">Comparison and Analysis</a></li>
     <li><a href="#resources-used">Resources Used</a></li>
     <li><a href="#resources used within the web app">Resources used within the Web App</a></li>
   </ol>
@@ -162,14 +163,20 @@ To run this project on your local systems, following are the requirements:
       - In order to accompany your searching time, music is provided. Optional to vibe.
 
 <img src="Images/pg11.png" alt="Play the Audio" width="700"/>
-    
+
+
+<!-- For comparing the three Algorithms -->
+## Comparison and Analysis
+   - On comparison, Content-based filtering will only give partial results for recommendation while collaborative-based filtering will give many possible results for the user seeking recommendation.
+   - But when combining the content-based and collaborative-based filtering together as the Hybrid approch, then the user is getting a very pact solution and convincing recommendations. This is the reason that hybrid approach is being used largely in recommendation systems.
+   - Popularity-based filtering is another algorithm type which recommends the most seen or liked items to the user. This is inculcated in the 'Recliner Lounge' Web App as the option to adjust the IMDB Scores. 
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Resources Used
 
-* [Movie Recommendation System](https://youtu.be/7rEagFH9tQg)
-* [2nd - Movie Recommendation System](https://youtu.be/_cXm7o9cDRo)
+* [Content-based Movie Recommendation System](https://youtu.be/7rEagFH9tQg)
+* [Web App - Movie Recommendation System](https://youtu.be/_cXm7o9cDRo)
 * [Streamlit Deployment](https://youtu.be/sO4IKex53JY)
 
 ## Resources Used within the Web App 
