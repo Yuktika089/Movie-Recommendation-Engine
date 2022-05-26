@@ -35,10 +35,10 @@ if __name__ == '__main__':
     st.header('Which Movie To Watch Today?')
     st.subheader('One solution for all movie cravings!')
     #loading image from system
-    img = Image.open('blue_bg3.png') 
+    img = Image.open('yo.png') 
     st.image(img)
     
-    st.write("This is a simple Movie Recommender application. \nIt consists of redirecting IMDB links to particular movies in order to give the viewers a review of selected movies."
+    st.write("This is a simple Movie Recommendation Application. \nIt consists of redirecting IMDB links to particular movies in order to give the viewers a review of selected movies."
                         "\nYou can select the genres and change the IMDb score. \nClick on the Movie and you'll be redirected to its IMDB page and watch its trailer.\n\n")
     
     apps = ['--Select--', 'Movie based', 'Genres based']   
@@ -72,7 +72,7 @@ if __name__ == '__main__':
                 st.markdown(f"[{movie}]({link})")
 
         else:
-                st.write("This is a simple Movie Recommender application. \nIt consists of redirecting IMDB links to particular movies in order to give the viewers a review of selected movies."
+                st.write("This is a simple Movie Recommendation Application. \nIt consists of redirecting IMDB links to particular movies in order to give the viewers a review of selected movies."
                         "\nYou can select the genres and change the IMDb score. \nClick on the Movie and you'll be redirected to its IMDB page and watch its trailer.")
 
     else:
@@ -82,4 +82,6 @@ if __name__ == '__main__':
     st.write("Play this button to accompany your vibe while you look for your movie!!")
     audio1 = open("song.mp3", "rb")
     st.audio(audio1)
-
+    
+    img = Image.open('yo1.png') 
+    st.image(img)
