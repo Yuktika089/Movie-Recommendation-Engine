@@ -109,11 +109,16 @@ To run this project on your local systems, following are the requirements:
 
 ### How the Web App works ?
 
-- After the link is accesssed and the web app opens you can see the very first step is to enter your name in the given space.
+- After the link is accesssed and the web app opens, you will come across this view.
 
-<img src="Images/Blank-Chat-Window.png" alt="blank chat window" width="700"/>
+<img src="pg1.png" alt="First look of the Web App" width="700"/>
 
-All the users registered with the app can be added to your chat. Photo sharing, read receipts, formatting the text, and many other things are possible in the chat. The shared photos can be viewed in the right pane. The chat can be deleted by expanding the 'Options' menu in the right pane and clicking the 'Delete' option.
+- The very first step is required to fill your name in the space provided.
+
+<img src="pg2.png" alt="Enter your Name" width="700"/>
+<img src="pg3.png" alt="Click on Submit" width="700"/>
+
+- All the users registered with the app can be added to your chat. Photo sharing, read receipts, formatting the text, and many other things are possible in the chat. The shared photos can be viewed in the right pane. The chat can be deleted by expanding the 'Options' menu in the right pane and clicking the 'Delete' option.
 
 <img src="Images/New-Chat.png" alt="new chat" width="700"/>
 
