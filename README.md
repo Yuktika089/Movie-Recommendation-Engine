@@ -1,6 +1,7 @@
 <h1 align="center">Movie Recommendation Engine 
   <!--<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png" alt="Logo" width="25" height="25">-->
 </h1>
+<h3 align="centre">Recliner Lounger</h3>
 
 <p align="center">
  <a target="_blank" href="https://share.streamlit.io/yuktika089/practise2/main/movierec_app.py">Link to the App</a>
@@ -90,7 +91,7 @@ Scrum and kanban are the primary agile processes. SCRUM is a subset of Agile, a 
 
 * Sprint 3 (May 18 - May 24): Implementation of the Algorithm and Execution of the System built
     - Started the development process by taking help from YouTube tutorials. 
-    - Built an application using Streamlit for the very first time. 
+    - Built an web application using Streamlit for the very first time. 
 
 * Sprint 4 (May 25 - May 29): Debugging, Deployment and Final Submission
     - Encountered occasional bugs which I debugged timely. Made required changes in the UI, added images and mode to make it user friendly. 
@@ -100,12 +101,13 @@ Scrum and kanban are the primary agile processes. SCRUM is a subset of Agile, a 
 
 ## Getting Started
 To run this project on your local systems, following are the requirements:
+
 ### Prerequisites and Accessing the Application
 - There are no prerequisites to run the "Recliner Lounge" - Movie Recommendation Engine on your systems.
 - Just simply click on the link and the engine can be used to your satisfiability. 
 
 <!-- APP TUTORIAL-->
-## Navigating Through The Application
+## Navigating Through The Web Application
 
 ### How the Web App works ?
 
