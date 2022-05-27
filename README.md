@@ -6,7 +6,7 @@
 <p align="center">
  <a target="_blank" href="https://share.streamlit.io/yuktika089/practise2/main/movierec_app.py">Link to the App</a>
     ·
- <a target="_blank" href="to edit">Video Demo</a>
+ <a target="_blank" href="https://youtu.be/8wFxf6H0Rr4">Video Demo</a>
 </p>
     
 <!-- TABLE OF CONTENTS -->
