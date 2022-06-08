@@ -4,7 +4,7 @@
    <h2 align="center">Recliner Lounge</h2>
 
 <p align="center">
- <a target="_blank" href="https://share.streamlit.io/yuktika089/practise2/main/movierec_app.py">Link to the App</a>
+ <a target="_blank" href="https://share.streamlit.io/yuktika089/web-app/main/movierec_app.py">Link to the App</a>
     ·
  <a target="_blank" href="https://youtu.be/8wFxf6H0Rr4">Video Demo</a>
 </p>
