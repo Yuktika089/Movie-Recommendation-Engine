@@ -62,6 +62,7 @@
 
 ### Compatible Platforms
 Laptops, Desktops, Tablet, PCs and Phones (Android and IOS).
+The only requirement is to sign up on <a target="_blank" href="https://streamlit.io/">Streamlit</a>.
 
 ### Built With
 
@@ -106,7 +107,8 @@ Scrum and kanban are the primary agile processes. SCRUM is a subset of Agile, a 
 To run this project on your local systems, following are the requirements:
 
 ### Prerequisites and Accessing the Web Application
-- There are no prerequisites to run the "Recliner Lounge" - Movie Recommendation Engine on your systems.
+- Sign Up on <a target="_blank" href="https://streamlit.io/">Streamlit</a>
+- Other than this, there are no prerequisites to run the "Recliner Lounge" - Movie Recommendation Engine on your systems.
 - Just simply click on the link and the engine can be used to your satisfiability. 
 
 <!-- APP TUTORIAL-->
